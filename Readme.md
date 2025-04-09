@@ -74,7 +74,7 @@ Input → Conv1d → ReLU → MaxPool → Conv1d → ReLU → MaxPool → Conv1d
 
 <hr/>
 
-<h2>📈 Training Options (config.py)</h2>
+<h2>📈 Training Options (arguments.py)</h2>
 
 <table>
   <tr><th>Argument</th><th>Description</th><th>Default</th></tr>
