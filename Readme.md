@@ -19,14 +19,29 @@ cnn_pipeline/
 
 <hr/>
 
-<h2>📦 Data Structure</h2>
+<h2>📥 Dataset</h2>
+
+<p>
+This project uses the publicly available <strong>CWRU Bearing Data</strong> from Case Western Reserve University.
+You can download the dataset files from the official website below:
+</p>
+
+<p>
+🔗 <a href="https://engineering.case.edu/bearingdatacenter/download-data-file" target="_blank">
+https://engineering.case.edu/bearingdatacenter/download-data-file
+</a>
+</p>
+
+<p>
+Please place the downloaded <code>.mat</code> files inside the <code>raw_data/</code> directory:
+</p>
 
 <pre>
-raw_data/                    # Original CWRU .mat files
-├── 97.mat                   # Normal
-├── 105.mat                  # IR fault
-├── 118.mat                  # Ball fault
-├── 130.mat                  # Outer race fault
+raw_data/
+├── 97.mat     # Normal
+├── 105.mat    # Inner race fault
+├── 118.mat    # Ball fault
+├── 130.mat    # Outer race fault
 </pre>
 
 <p>The <code>preprocess.py</code> module converts raw signals into sliding window segments for supervised classification.</p>
