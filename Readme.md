@@ -69,7 +69,7 @@ raw_data/
 <p>Three-layer 1D convolutional encoder with ReLU, BatchNorm, and MaxPooling followed by fully connected classification layers.</p>
 
 <pre>
-Input → Conv1d → ReLU → MaxPool → Conv1d → ReLU → MaxPool → Conv1d → Flatten → FC → FC → Output
+Input → Conv1d → ReLU → MaxPool → Conv1d → ReLU → MaxPool → Conv1d → Flatten → FC layer → FC layer → Output
 </pre>
 
 <hr/>
