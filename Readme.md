@@ -88,3 +88,6 @@ Input → Conv1d → ReLU → MaxPool → Conv1d → ReLU → MaxPool → Conv1d
 
 <hr/>
 
+<h2> Views </h2>
+
+![](http://profile-counter.glitch.me/97yong-signal-fault-classification/count.svg)
